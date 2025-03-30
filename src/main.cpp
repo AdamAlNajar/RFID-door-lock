@@ -16,7 +16,7 @@
 MFRC522 mfrc522(SS_PIN, RST_PIN);   // Create MFRC522 instance
 Servo doorServo;
 
-byte ADAM_TAG[]  = {0x83,0x9B,0xA6,0xFA};
+byte ADAM_TAG[]  = {}; // PUT UR OWN TAG, NO NEED TO CLONE MINE 
 
 void setup() 
 {
